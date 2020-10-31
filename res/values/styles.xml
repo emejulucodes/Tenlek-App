@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light">
+    </style>
+<style name="Full" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

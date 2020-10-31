@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+    font-display: optional;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    background: #eee;
+}
+.main {
+    padding-top: 30px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+header {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff, inset 4px 4px 8px rgba(209, 217, 230, 0.2), inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: Tahoma,Arial,sans-serif;
+}
+img{
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 90vw;
+    border-radius: 5px;
+    height: 60vh;
+}
+li{
+font-size:large;
+list-style:none;
+}
+li a{
+text-decoration:none;
+}
